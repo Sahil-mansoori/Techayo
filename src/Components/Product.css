@@ -1,0 +1,156 @@
+/* MAIN */
+.Productcontroller {
+    padding: 20px 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*<========================================== Category section ========================================> */
+
+.sidebar {
+    width: 20%;
+    height: 500px;
+    border: 2px solid rgb(217, 217, 219);
+    position: sticky;
+    top: 100px;
+}
+
+.Category {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.category_butoons {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    width: 100px;
+    margin: auto;
+    gap: 10px;
+    position: relative;
+    left: 20px;
+}
+
+.category_butoons button {
+    border: none;
+    background-color: transparent;
+}
+
+.category_butoons button:hover {
+    color: rgb(210, 54, 133);
+}
+
+.category_butoons button:active {
+    color: rgb(210, 54, 133);
+}
+
+
+
+/* color section */
+.colorbox {
+    display: flex;
+    height: 30px;
+    width: 100px;
+    margin: auto;
+    position: relative;
+    left: 25px;
+}
+
+.colorbox p {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+    margin-left: 10px;
+    margin-top: 5px;
+
+}
+
+.colorbox input {
+    /* margin-top: 20px; */
+    position: relative;
+    top: 5px;
+}
+
+.colorbox button {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    margin-top: 8px;
+
+}
+
+
+
+/*<========================================== Product section ========================================> */
+
+
+.Main_container {
+    width: 75%;
+    min-height: 500px;
+    border: 2px solid rgb(217, 217, 219);
+}
+
+.products_container {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.linenavbar{
+    display: none;
+}
+
+@media  (max-width:780px) {
+
+    .linenavbar{
+        display: block;
+    }
+    .sidebar{
+        display: none;
+    }
+    .Main_container {
+        width: 100%;
+        min-height: 500px;
+        border: 2px solid rgb(217, 217, 219);
+    }
+    .Productcontroller {
+        padding: 20px 40px;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+
+
+@media  (max-width:500px) {
+    .Productcontroller {
+        padding: 20px 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+@media (min-width:1000px) and  (max-width:1100px) {
+    .Productcontroller {
+        padding: 20px 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .Main_container {
+        width: 70%;
+        min-height: 500px;
+        border: 2px solid rgb(217, 217, 219);
+        margin-left: 30px;
+    }
+    
+}
+

@@ -1,0 +1,102 @@
+.nav1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(242, 242, 243);
+    padding: 0px 80px;
+    position: relative;
+}
+
+#navbar1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#navbar1 li {
+    list-style: none;
+    padding: 5px 40px;
+    position: relative;
+    top: 5px;
+
+}
+
+#navbar1 li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu_icons {
+    display: none;
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+}
+.shop_banner{
+    padding: 10px 110px;
+}
+
+@media (max-width:780px) {
+
+    #navbar1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+        transition: all .8s ease-in-out;
+
+    }
+
+    .nav1 {
+        padding: 10px 10px;
+        position: relative;
+    }
+
+    #navbar12 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        width: 200px;
+        /* height: 300px; */
+        padding-top: 20px;
+        background-color: rgb(60, 60, 60);
+        transition: all .8s ease-in-out;
+        z-index: 999;
+        padding-bottom: 20px;
+    }
+
+
+    #navbar12 .active{
+        right: 0px;
+    }
+
+    #navbar12 li {
+        padding-top: 10px;
+        padding-bottom: 10px !important;
+        list-style: none;
+    }
+    #navbar12 li button {
+       color: red;
+    }
+
+
+    .menu_icons {
+        display: block;
+    }
+    .shop_banner{
+        padding: 10px 10px;
+    }
+}
+
+
+@media (min-width:1000px) and (max-width:1100px) {
+    .shop_banner{
+        padding: 10px 63px;
+    }
+}

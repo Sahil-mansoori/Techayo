@@ -1,0 +1,9 @@
+.boxsett{
+    width: 40%;
+}
+
+@media (max-width:800px) {
+    .boxsett{
+        width: 90%;
+    }
+}

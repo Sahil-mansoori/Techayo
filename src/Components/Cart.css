@@ -1,0 +1,202 @@
+.Cartcont {
+    padding: 40px 100px;
+}
+
+
+
+.card_mainconatiner {
+    min-height: 300px;
+    position: relative;
+    left: 0;
+    /* width: 80%; */
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background-color: rgb(245, 214, 214);
+    border-radius: 10px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+
+.cart_card {
+    border-radius: 5px;
+    width: 500px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border: 1px solid red;
+}
+
+
+
+
+.btnset {
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: px; */
+    color: black;
+    border: none;
+    background-color: rgb(240, 240, 240);
+}
+
+.btnset:active {
+    background-color: rgb(153, 158, 153);
+}
+
+.clerbtn {
+    color: red;
+    border: none;
+}
+
+.clerbtn:active {
+    background-color: rgb(153, 158, 153);
+}
+
+
+.totalamoutset {
+    padding: 10px;
+    position: sticky;
+    background-color: white;
+    border-radius: 5px;
+    width: 300px;
+    top: -10px;
+}
+
+@media(min-width:400px) and (max-width:767px) {
+    .cart_card {
+        border-radius: 5px;
+        width: 390px;
+        margin-bottom: 10px;
+        padding: 2px !important;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white
+    }
+
+    .Cartcont {
+        padding: 40px 10px;
+    }
+    .card_mainconatiner {
+        padding: 10px;
+    }
+}
+
+@media (min-width:410px) and (max-width:430px) {
+    .btnset {
+        height: 20px !important;
+        width: 20px !important;
+        border-radius: 100%;
+        font-size: 15px;
+    }
+    .clerbtn {
+        color: red;
+        border: none;
+        font-size: 14px !important;
+    }
+    .productmobile{
+        font-size: 15px !important;
+    }
+    .totalamoutset h5{
+        font-size: 17px !important;
+    }
+    .totalamoutset h4,p{
+        font-size: 18px !important;
+    }
+
+}
+
+@media(min-width:350px) and (max-width:397px) {
+    .cart_card {
+        border-radius: 5px;
+        width: 350px !important;
+        margin-bottom: 10px;
+        padding: 2px !important;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white
+    }
+
+    .Cartcont {
+        padding: 40px 5px;
+    }
+
+    .card_mainconatiner {
+        padding: 5px;
+    }
+
+    .productmobile{
+        font-size: 12px !important;
+    }
+
+    .btnset {
+        height: 18px !important;
+        width: 18px !important;
+        border-radius: 100%;
+        font-size: 15px;
+    }
+    .clerbtn {
+        color: red;
+        border: none;
+        font-size: 12px !important;
+    }
+    .totalamoutset h5{
+        font-size: 17px !important;
+    }
+    .totalamoutset h4,p{
+        font-size: 18px !important;
+    }
+}
+
+@media(min-width:250px) and (max-width:347px) {
+    .cart_card {
+        border-radius: 5px;
+        width: 300px !important;
+        margin-bottom: 10px;
+        padding: 2px !important;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white
+    }
+
+    .Cartcont {
+        padding: 40px 1px;
+    }
+
+    .card_mainconatiner {
+        padding: 10px;
+    }
+    .productmobile{
+        font-size: 10px !important;
+    }
+    .btnset {
+        height: 18px !important;
+        width: 18px !important;
+        border-radius: 100%;
+        font-size: 15px;
+    }
+    .clerbtn {
+        color: red;
+        border: none;
+        font-size: 12px !important;
+    }
+
+    .totalamoutset h5{
+        font-size: 16px !important;
+    }
+    .totalamoutset h4,p{
+        font-size: 17px !important;
+    }
+}

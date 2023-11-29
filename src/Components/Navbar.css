@@ -1,0 +1,421 @@
+.containernav {
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 8989;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 10px 60px -30px;
+        background-color: white;
+}
+
+.navbarset .active{
+    color: rgb(210, 54, 133);
+}
+
+.menu_bar ul {
+    display: flex;
+}
+
+.menu_bar ul li {
+    list-style: none;
+    padding: 0px 15px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.mobile_menu {
+    font-size: 28px;
+    display: none;
+}
+
+.social_icons {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+}
+
+
+.seatchinput {
+    border: 1px solid rgb(224, 218, 218);
+    height: 42.8px;
+    width: 250px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 20px;
+}
+
+.searchbtn {
+    width: 60px;
+    height: 43px;
+    border: none;
+    background-color: rgb(210, 54, 133);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+}
+
+.logocontainer {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.menu_bar1 ul {
+    display: block;
+    /* flex-direction: column; */
+    border: none !important;
+    position: absolute;
+    top: 50px !important;
+    width: 766px;
+    left: -573px;
+    margin: auto;
+    text-align: center;
+    padding: 5px 30px;
+    background-color: rgb(209, 193, 193);
+}
+
+.menu_bar1 ul li {
+    margin: 30px 0px;
+    border: none !important;
+    list-style: none;
+    color: white;
+}
+.menu_bar1 ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+@media (min-width:980px) and (max-width:1090px) {
+
+    .seatchinput {
+        height: 38.8px;
+        width: 200px;
+    }
+
+    .searchbtn {
+        width: 55px;
+        height: 39px;
+    }
+
+    .menu_bar ul li {
+        padding: 0px 15px;
+        position: relative;
+        top: -1px;
+    }
+
+    .social_icons {
+        display: flex;
+        justify-content: space-around;
+        width: 100px;
+
+    }
+
+    .logocontainer {
+        display: flex;
+        justify-content: space-between;
+        width: 480px;
+    }
+
+}
+
+@media (min-width:720px) and (max-width:979px) {
+
+    .containernav {
+        padding: 15px 20px;
+    }
+    .carticons{
+        position: relative;
+        top: -8px;
+    }
+
+    .logocontainer {
+        display: flex;
+        justify-content: space-between;
+        width: 480px;
+    }
+
+    .menu_bar ul li {
+        list-style: none;
+        padding: 0px 15px;
+        display: none;
+    }
+
+    .seatchinput {
+        height: 39px;
+        width: 220px;
+    }
+
+    .searchbtn {
+        width: 45px;
+        height: 39.5px;
+    }
+
+    .mobile_menu {
+        font-size: 28px;
+        display: block;
+        position: relative;
+        top: -2px;
+    }
+
+    .social_icons {
+        display: flex;
+        justify-content: space-around;
+        width: 150px;
+        align-items: center;
+    }
+}
+
+@media (min-width:420px) and (max-width:719px) {
+
+    .containernav {
+        padding: 15px 0px 10px 15px;
+    }
+
+    .menu_bar ul li {
+        list-style: none;
+        padding: 0px 15px;
+        display: none;
+    }
+
+    .logoimg {
+        width: 40% !important;
+    }
+
+
+    .menu_bar1 ul {
+        display: block;
+        /* flex-direction: column; */
+        position: absolute;
+        top: 53px;
+        border: 1px solid red;
+        width: 424.5px;
+        left: -425px;
+        margin: auto;
+        text-align: center;
+        padding: 5px 30px;
+    }
+
+    .logocontainer {
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .serachbox {
+        position: relative !important;
+        display: flex;
+        justify-content: center;
+        border: 1px solid red;
+    }
+
+    .seatchinput {
+        height: 39.4px;
+        width: 278px;
+        margin-left: 50px;
+
+    }
+
+    .searchbtn {
+        width: 48px;
+        height: 39.7px;
+    }
+
+
+    .social_icons {
+        display: flex;
+        justify-content: space-around;
+        width: 140px;
+        align-items: center;
+        position: absolute;
+        top: -50px;
+        right: 10px;
+    }
+
+    .mobile_menu {
+        font-size: 28px;
+        display: block;
+        position: relative;
+        top: -3px;
+
+    }
+.carticons{
+    position: relative;
+    top: -8px;
+}
+
+}
+
+@media (min-width:350px) and (max-width:419px) {
+
+    .containernav {
+        padding: 15px 0px 10px 15px;
+    }
+
+    .carticons{
+        position: relative;
+        top: -8px;
+    }
+
+    .menu_bar ul li {
+        list-style: none;
+        padding: 0px 15px;
+        display: none;
+    }
+
+    .logoimg {
+        width: 45% !important;
+    }
+
+    .menu_bar1 ul {
+        display: block;
+        /* flex-direction: column; */
+        position: absolute;
+        top: 53px;
+        border: 1px solid red;
+        width: 374.5px;
+        left: -375px;
+        margin: auto;
+        text-align: center;
+        padding: 5px 30px;
+    }
+
+    .logocontainer {
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .serachbox {
+        position: relative !important;
+        display: flex;
+        justify-content: center;
+        border: 1px solid red;
+    }
+
+    .seatchinput {
+        height: 37.3px !important;
+        width: 220px !important;
+        margin-left: 50px;
+
+    }
+
+    .searchbtn {
+        width: 55px;
+        height: 38px !important;
+    }
+
+
+    .social_icons {
+        display: flex;
+        justify-content: space-around;
+        width: 130px;
+        align-items: center;
+        position: absolute;
+        top: -50px;
+        right: 5px;
+    }
+
+    .mobile_menu {
+        font-size: 28px;
+        display: block;
+        position: relative;
+        top: -3px;
+
+    }
+
+
+}
+
+@media (min-width:300px) and (max-width:349px) {
+
+    .containernav {
+        padding: 15px 0px 10px 15px;
+    }
+
+    .carticons{
+        position: relative;
+        top: -8px;
+    }
+
+    .menu_bar ul li {
+        list-style: none;
+        padding: 0px 15px;
+        display: none;
+    }
+
+    .menu_bar1 ul {
+        display: block;
+        /* flex-direction: column; */
+        position: absolute;
+        top: 50px;
+        border: 1px solid red;
+        width: 319.5px;
+        left: -320px;
+        margin: auto;
+        text-align: center;
+        padding: 5px 30px;
+    }
+
+    .logocontainer {
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .serachbox {
+        position: relative !important;
+        display: flex;
+        justify-content: center;
+        border: 1px solid red;
+    }
+
+    .seatchinput {
+        height: 36px;
+        width: 193px;
+        margin-left: 40px;
+    }
+
+    .searchbtn {
+        width: 40px;
+        height: 36px;
+    }
+
+    .logoimg {
+        width: 50%;
+    }
+
+    .social_icons {
+        display: flex;
+        justify-content: space-around;
+        width: 120px;
+        align-items: center;
+        position: absolute;
+        top: -50px;
+        right: 5px;
+    }
+
+    .mobile_menu {
+        font-size: 28px;
+        display: block;
+        position: relative;
+        top: -3px;
+
+    }
+
+
+}

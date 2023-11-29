@@ -1,0 +1,16 @@
+
+
+@media  (min-width:400px) and (max-width:600px) {
+    .bordersetlogin{
+        padding: 50px !important;
+    }
+}
+
+@media  (min-width:300px) and (max-width:399px) {
+    .bordersetlogin{
+        padding: 20px !important;
+    }
+    .containerset{
+        padding-top: 150px !important;
+    }
+}
